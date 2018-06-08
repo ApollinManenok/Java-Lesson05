@@ -1,6 +1,8 @@
+package by.itacademy.lesson05.task1;
+
 public class Task1 {
     public static void main(String[] args) {
-        Figure triangle = new Triangle(3, 4, 2);
+        Figure triangle = new Triangle(3, 4, 5);
         System.out.println(triangle + " area: " + triangle.area());
         Figure circle = new Circle(4);
         System.out.println(circle + " area: " + circle.area());

@@ -1,3 +1,5 @@
+package by.itacademy.lesson05.task1;
+
 public class Circle extends Figure {
     private double r;
 

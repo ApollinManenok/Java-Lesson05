@@ -1,3 +1,3 @@
-if not exsist bin\nul md bin
-javac -cp src\ -d bin src\Task1.java
-java -classpath bin Task1
+if not exist bin\nul md bin
+javac -d bin -sourcepath src -cp bin src\by\itacademy\lesson05\task1\Task1.java
+java -classpath bin by.itacademy.lesson05.task1.Task1

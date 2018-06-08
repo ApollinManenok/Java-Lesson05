@@ -1,3 +1,5 @@
+package by.itacademy.lesson05.task1;
+
 public class Rectangle extends Figure {
     private double a;
     private double b;

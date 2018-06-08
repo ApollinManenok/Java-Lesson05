@@ -1,3 +1,5 @@
+package by.itacademy.lesson05.task1;
+
 public class Triangle extends Figure {
     public double a;
     public double b;
@@ -11,7 +13,8 @@ public class Triangle extends Figure {
 
     @Override
     public double area() {
-        return (a + b + c) / 2.0;
+        double perimeter = (a + b + c) / 2.0;
+        return Math.sqrt(perimeter*(perimeter-a)*(perimeter-b)*(perimeter-c));
     }
 
     @Override

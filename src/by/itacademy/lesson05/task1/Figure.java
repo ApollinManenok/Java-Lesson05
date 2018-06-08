@@ -1,3 +1,5 @@
+package by.itacademy.lesson05.task1;
+
 public abstract class Figure {
     public abstract double area();
 
